@@ -53,7 +53,7 @@ BuildRequires: gcc-c++
 BuildRequires: python
 %endif
 
-Requires:      libssl0.9.8
+Requires:      openssl
 Requires:      chkconfig
 
 Provides:      wsrep, %{name} = %{version}-%{release}
